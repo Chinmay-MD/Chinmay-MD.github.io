@@ -77,3 +77,14 @@ footer {
   color: #555555;
   font-size: 14px;
 }
+
+.headshot {
+  float: right;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0 16px 24px;
+}
+
+@media (max-width: 560px) {
+  .headshot { float: none; display: block; width: 160px; height: 160px; margin: 16px 0; }
+}
